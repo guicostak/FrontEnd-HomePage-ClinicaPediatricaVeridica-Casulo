@@ -1,0 +1,15 @@
+#navbar {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+}
+
+#logo{
+  width: 20vw;
+  margin-right: 5vw;
+}
