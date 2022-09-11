@@ -7,19 +7,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2vw;
+  gap: 1vw;
 }
 
 #barraSuperior p img{
-  width: 1.3vw;
+  width: 1.1vw;
   margin-inline: 0.5rem;
 
 }
 
 #logo{
-  width: 18vw;
-  margin-right: 8vw;
-  margin-left: 3vw;
+  width: 15vw;
+  margin-right: 9vw;
+  margin-left: 4vw;
 }
 
 .info{
@@ -31,35 +31,38 @@
   justify-content: center;
 }
 .info p{
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-family: 'Poppins';
   margin-bottom: 2vh;
+  text-align: left;
 
 }
 
 .info b{
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 600;
   font-family:'Poppins';
-  color: #714e1e;
+  color: #55893d;
+  
 }
 
 #infob{
-  border-inline: 1px solid #714e1e;
+  border-inline: 1px solid #0f6683;
 }
 
 #navbar {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 
   height: 10vh;
   
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 3vw;
+  justify-content: left;
+  gap: 4vw;
+  padding-left: 8vw;
 
   background-color: #714e1e;
 }
