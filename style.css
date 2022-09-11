@@ -20,3 +20,21 @@
   width: 20vw;
   margin-right: 5vw;
 }
+
+.info{
+  border-inline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2vw;
+}
+.info span{
+  font-size: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 2vh;
+}
+
+.info h5{
+  font-size: 1.3rem;
+  font-weight: 800;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
