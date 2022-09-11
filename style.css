@@ -10,6 +10,12 @@
   gap: 2vw;
 }
 
+#barraSuperior p img{
+  width: 1.3vw;
+  margin-inline: 0.5rem;
+
+}
+
 #logo{
   width: 18vw;
   margin-right: 8vw;
@@ -28,10 +34,11 @@
   font-size: 0.8rem;
   font-family: 'Poppins';
   margin-bottom: 2vh;
+
 }
 
 .info b{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   font-family:'Poppins';
   color: #714e1e;
@@ -45,18 +52,14 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  
 
   height: 10vh;
   
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 3vw;
-
-  margin-top: 2vh;
 
   background-color: #714e1e;
 }
