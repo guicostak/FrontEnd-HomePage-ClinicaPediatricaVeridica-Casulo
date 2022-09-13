@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+
+:root{
+  --main-color: #714e1e;
+  --text-color: #4b4747;
+  --secundary-color: #55893d;
+  --light-text: #ffffff;
+  --main-background: #ffffff;
+  --card-bakcground:  #5a5c66;
+
+  --main-font: Optima, sans-serif;
+  --secundary-font: Arial;
+}
+
 #barraSuperior{
   display: flex;
   flex-direction: row;
@@ -33,6 +46,7 @@
 .info p{
   font-size: 0.85rem;
   font-family: 'Poppins';
+  color: var(--text-color);
   margin-bottom: 2vh;
   text-align: left;
 
@@ -42,12 +56,12 @@
   font-size: 1.1rem;
   font-weight: 600;
   font-family:'Poppins';
-  color: #55893d;
+  color: var(--text-color);
   
 }
 
 #infob{
-  border-inline: 1px solid #0f6683;
+  border-inline: 0.8px solid var(--text-color);
 }
 
 #navbar {
@@ -64,11 +78,11 @@
   gap: 4vw;
   padding-left: 8vw;
 
-  background-color: #714e1e;
+  background-color: var(--main-color);
 }
 
 #navbar a{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: var(--light-text);
   font-family: 'Poppins'
 }
