@@ -9,7 +9,7 @@
   --text-color: #4b4747;
   --secundary-color: #55893d;
   --light-text: #ffffff;
-  --main-background: #ffffff;
+  --light-text2: #5c5353;
   --card-bakcground:  #5a5c66;
 
   --main-font: Optima, sans-serif;
@@ -31,8 +31,8 @@
 
 #logo{
   width: 15vw;
-  margin-right: 9vw;
-  margin-left: 4vw;
+  margin-right: 3vw;
+  margin-left: 8vw;
 }
 
 .info{
@@ -44,9 +44,9 @@
   justify-content: center;
 }
 .info p{
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-family: 'Poppins';
-  color: var(--text-color);
+  color: var(--light-text2);
   margin-bottom: 2vh;
   text-align: left;
 
