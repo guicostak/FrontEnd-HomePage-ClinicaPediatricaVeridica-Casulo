@@ -5,12 +5,12 @@
 
 
 :root{
-  --main-color: #714e1e;
-  --text-color: #4b4747;
-  --secundary-color: #55893d;
+  --main-color: #8a6f35;
+  --text-color: #474b48;
+  --secundary-color: #45ac5d;
   --light-text: #ffffff;
-  --light-text2: #5c5353;
-  --card-bakcground:  #5a5c66;
+  --light-text2: #666363;
+  --main-bakcground:  #5a5c66;
 
   --main-font: Optima, sans-serif;
   --secundary-font: Arial;
@@ -21,6 +21,7 @@
   flex-direction: row;
   align-items: center;
   gap: 1vw;
+  background-color: #effffe;
 }
 
 #barraSuperior p img{
@@ -61,13 +62,13 @@
 }
 
 #infob{
-  border-inline: 0.8px solid var(--text-color);
+  border-inline: .1px solid var(--light-text2);
 }
 
 #navbar {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 
   height: 10vh;
   
@@ -78,7 +79,7 @@
   gap: 4vw;
   padding-left: 8vw;
 
-  background-color: var(--main-color);
+  background-color: var(--secundary-color);
 }
 
 #navbar a{
