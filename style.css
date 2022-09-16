@@ -61,7 +61,7 @@
 .info b{
   font-size: 1.1rem;
   font-weight: 600;
-  
+
   font-family:'Poppins';
   color: var(--text-color);
 }
@@ -73,7 +73,7 @@
 #navbar {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 
   height: 12vh;
   
@@ -91,6 +91,10 @@
   text-decoration: none;
   color: var(--light-text);
   font-family: 'Poppins'
+}
+
+#navbar a:hover{
+  color: rgb(241, 231, 231);
 }
 
 #dobra1{
