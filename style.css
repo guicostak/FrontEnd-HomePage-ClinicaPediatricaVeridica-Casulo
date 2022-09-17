@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  background-color: var(--main-background);
 }
 
 
@@ -9,7 +10,7 @@
   --text-color: #474b48;
   --light-text: #ffffff;
   --light-text2: #666363;
-  --main-bakcground:  #5a5c66;
+  --main-background:  #effffe;
 
   --main-font: Optima, sans-serif;
   --secundary-font: Arial;
@@ -21,7 +22,7 @@
   align-items: center;
   gap: 1vw;
 
-  background-color: #effffe;
+  background-color: var(--main-background);
 }
 
 #barraSuperior p img{
@@ -94,9 +95,17 @@
 }
 
 #navbar a:hover{
-  color: rgb(241, 231, 231);
+  color: rgb(205, 214, 214);
 }
 
 #dobra1{
   width: 100%;
+  
+}
+
+#dobra2{
+  margin: 0;
+  height: 40vh;
+
+  background-color: var(--main-background);
 }
