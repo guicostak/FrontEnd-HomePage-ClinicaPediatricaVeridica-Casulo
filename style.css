@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: var(--main-background);
 }
 
 
@@ -14,6 +13,10 @@
 
   --main-font: Optima, sans-serif;
   --secundary-font: Arial;
+}
+
+body{
+  background-color: var(--main-background);
 }
 
 #barraSuperior{
@@ -100,7 +103,7 @@
 
 #dobra1{
   width: 100%;
-  
+  ;
 }
 
 #dobra2{
