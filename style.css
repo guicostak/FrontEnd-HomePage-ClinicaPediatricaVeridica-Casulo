@@ -16,7 +16,7 @@
 }
 
 body{
-  background-color: var(--main-background);
+  background-color: #fdfdff;
 }
 
 #barraSuperior{
@@ -103,12 +103,12 @@ body{
 
 #dobra1{
   width: 100%;
-  ;
+ 
 }
 
 #dobra2{
   margin: 0;
   height: 40vh;
 
-  background-color: var(--main-background);
+  background-color: #fdfdff;
 }
