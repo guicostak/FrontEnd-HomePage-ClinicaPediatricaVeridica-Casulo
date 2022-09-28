@@ -32,7 +32,6 @@ body{
   width: 1.1vw;
 
   margin-inline: 0.5rem;
-
 }
 
 #logo{
@@ -59,7 +58,6 @@ body{
 
   margin-bottom: 2vh;
   text-align: left;
-
 }
 
 .info b{
@@ -108,7 +106,7 @@ body{
 
 #sobre{
   margin: 0;
-  height: 70vh;
+  height: 80vh;
 
   background-color: #fdfdff;
 }
@@ -136,5 +134,31 @@ body{
 }
 
 .slide img{
-  width: 400px;
+  width: 800px;
 }
+
+.manual-navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background-color: white;
+}
+
+#radio1:checked{}
