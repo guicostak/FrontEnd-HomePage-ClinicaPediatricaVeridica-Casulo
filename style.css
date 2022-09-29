@@ -111,8 +111,9 @@ body{
 }
 
 .slider{
-  margin: 0 auto;
-  width: 800px;
+  margin: 0;
+  margin-left: 5rem;
+  width: 600px;
   height: 400px;
   overflow: hidden;
 }
@@ -138,7 +139,7 @@ body{
 
 .manual-navigation{
   position: absolute;
-  width: 800px;
+  width: 600px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
