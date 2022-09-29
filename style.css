@@ -23,6 +23,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 1vw;
 
   background-color: var(--main-background);
@@ -38,7 +39,6 @@ body{
   width: 15vw;
 
   margin-right: 3vw;
-  margin-left: 8vw;
 }
 
 .info{
@@ -82,9 +82,8 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   gap: 3vw;
-  padding-left: 9vw;
 
   background-color: var(--main-color);
 }
