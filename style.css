@@ -106,6 +106,8 @@ body{
 #sobre{
   margin: 0;
   height: 80vh;
+  display: flex;
+  flex-direction: row;
 
   background-color: #fdfdff;
 }
@@ -118,6 +120,7 @@ body{
   width: 600px;
   height: 400px;
   overflow: hidden;
+  display: inline-block;
 }
 
 .slides{
@@ -249,3 +252,27 @@ body{
 #radio8:checked ~ .navigation-auto .auto-btn8{
   background-color: #FFF
 }
+/*===================*/
+
+.sntxt{
+  display: inline-block;
+  width: 35vw;
+  margin: 0 auto;
+}
+
+.sntxt h1{
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+  
+  margin-bottom: 2vh;
+}
+
+.sntxt h1 b{
+  color: var(--main-color)
+}
+
+.sntxt p{
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+}
+
