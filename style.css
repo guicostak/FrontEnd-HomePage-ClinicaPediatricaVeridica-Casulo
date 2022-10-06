@@ -119,15 +119,15 @@ body{
 .slider{
   margin: 0;
   margin-left: 5rem;
-  width: 600px;
-  height: 400px;
+  width: 43.9vw;
+  height: 64vh;
   overflow: hidden;
   display: inline-block;
 }
 
 .slides{
   width: 400%;
-  height: 400px;
+  height: 64vh;
   display: flex;
 }
 
@@ -142,14 +142,13 @@ body{
 }
 
 .slide img{
-  width: 600px;
-  height: 400px;
+  width: 43.9vw;
 }
 
 .manual-navigation{
   position: absolute;
-  width: 600px;
-  margin-top: -40px;
+  width: 43.9vw;
+  margin-top: -6.4vh;
   display: flex;
   justify-content: center;
 }
@@ -163,7 +162,7 @@ body{
 }
 
 .manual-btn:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 2.93vw;
 }
 
 .manual-btn:hover{
@@ -212,8 +211,8 @@ body{
 
 .navigation-auto{
   position: absolute;
-  width: 600px;
-  margin-top: 360px;
+  width: 43.9vw;
+  margin-top: 57.6vh;
   display: flex;
   justify-content: center;
 } 
