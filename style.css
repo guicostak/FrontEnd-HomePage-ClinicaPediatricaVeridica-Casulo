@@ -98,6 +98,7 @@ body{
 
 #navbar a:hover{
   color: rgb(205, 214, 214);
+  transform: scale(1.04);
 }
 
 #dobra1{
