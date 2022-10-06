@@ -107,7 +107,7 @@ body{
 
 #sobre{
   margin: 0;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   flex-direction: row;
 
@@ -284,5 +284,12 @@ body{
 
 .sntxt p b{
   font-size: 1rem;
+}
+
+#especialidades{
+  height: 100vh;
+  background-color: rgb(233, 233, 233);
+
+
 }
 
