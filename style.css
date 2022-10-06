@@ -287,8 +287,9 @@ body{
 }
 
 #especialidades{
-  height: 100vh;
+  height: 120vh;
   background-color: rgb(233, 233, 233);
+  background-image: url(images/brand/dobra3.png);
 
 
 }
