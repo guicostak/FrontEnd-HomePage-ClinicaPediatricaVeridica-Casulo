@@ -303,6 +303,7 @@ body{
   text-align: center;
   font-family: 'Montserrat';
   font-weight: 500;
+
   margin: 18vh auto 4vh;
 }
 
@@ -315,9 +316,9 @@ body{
 
 #especialidades #brand{
   width: 6vw;
+
   position: absolute;
   margin-top: 2vh;
-  
 }
 
 .row{
@@ -343,6 +344,7 @@ body{
   font-size: 1.2rem;
   text-align: center;
   color: rgb(77, 76, 76);
+  
   margin: 5vh auto 2vh;
 }
 
