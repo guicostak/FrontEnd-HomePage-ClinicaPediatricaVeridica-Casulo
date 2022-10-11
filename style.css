@@ -288,8 +288,30 @@ body{
 }
 
 #especialidades{
-  height: 120vh;
+  height: 140vh;
   background-color: rgb(233, 233, 233);
   background-image: url(images/brand/dobra3.png);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 15vw;
+}
+
+.especialidade h2{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.especialidade img{
+  width: 10vw;
+}
+
 
