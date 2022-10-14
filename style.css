@@ -97,7 +97,7 @@ body{
 }
 
 #navbar a:hover{
-  color: rgb(205, 214, 214);
+  color: rgb(232, 235, 235);
   transform: scale(1.04);
 }
 
@@ -321,14 +321,14 @@ body{
   margin-top: 2vh;
 }
 
-.row{
+#especialidades .row{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 3vw;
 }
 
-.row:first-child{
+#especialidades .row:first-child{
   margin-left: 2vw;
 }
 .especialidade{
@@ -388,4 +388,11 @@ body{
   flex-direction: column;
   align-items: center;
   gap: 10vh;
+}
+
+#equipe .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3vw;
 }
