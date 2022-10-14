@@ -396,3 +396,8 @@ body{
   justify-content: center;
   gap: 3vw;
 }
+
+#equipe img{
+  width: 10vw;
+  border-radius: 100px;
+}
