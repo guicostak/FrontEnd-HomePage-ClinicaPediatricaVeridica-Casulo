@@ -288,7 +288,7 @@ body{
 }
 
 #especialidades{
-  height: 295vh;
+  height: 115rem;
   background-image: url(images/brand/dobra3.png);
   
 
@@ -328,13 +328,14 @@ body{
   gap: 3vw;
 }
 
-#especialidades .last-row {
+.last-row:last-child{
   display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: left;
-  gap: 3vw;
+  flex-direction: column;
+  align-items: center;
+  width: 19vw;
+  margin-right: 66vw;
 }
+
 
 #especialidades .row:first-child{
   margin-left: 2vw;
