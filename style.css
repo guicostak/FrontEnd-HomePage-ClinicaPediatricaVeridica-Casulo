@@ -408,6 +408,35 @@ body{
 }
 
 #equipe img{
-  width: 10vw;
+  width: 13vw;
   border-radius: 100px;
+}
+
+#equipe .row .doctor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+#equipe .row .doctor .card{
+  width: 15vw;
+}
+
+#equipe .row .doctor .card h2{
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(77, 76, 76);
+
+  margin: 3vh auto 2vh;
+}
+
+#equipe .row .doctor .card p{
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 0.9rem;
+  color: rgb(77, 76, 76);
 }
