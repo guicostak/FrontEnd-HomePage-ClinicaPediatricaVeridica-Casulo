@@ -370,7 +370,7 @@ body{
 }
 
 #equipe{
-  height: 300vh;
+  height: 500rem;
 }
 
 #equipe h1{
@@ -379,7 +379,7 @@ body{
   font-family: 'Montserrat';
   font-weight: 500;
 
-  margin: 10vh auto 4vh;
+  margin: 10vh auto 3vh;
 }
 
 #equipe h1 b{
@@ -397,7 +397,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10vh;
+  gap: 13vh;
 }
 
 #equipe .row{
@@ -408,7 +408,7 @@ body{
 }
 
 #equipe img{
-  width: 13vw;
+  width: 12vw;
   border-radius: 100px;
 }
 
@@ -422,6 +422,9 @@ body{
 
 #equipe .row .doctor .card{
   width: 13vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
 }
 
 #equipe .row .doctor .card h2{
@@ -431,7 +434,7 @@ body{
   text-align: center;
   color: rgb(77, 76, 76);
 
-  margin: 3vh auto 2vh;
+  margin: 3vh auto 0vh;
 }
 
 #equipe .row .doctor .card p{
