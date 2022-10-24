@@ -396,6 +396,17 @@ body{
   font-size: 1.8rem;
 }
 
+#equipe .last-row:last-child{
+  margin-right: 59vw;
+}
+
+#equipe .last-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3.2vw;
+}
+
 #equipe .row{
   display: flex;
   flex-direction: row;
@@ -408,7 +419,7 @@ body{
   border-radius: 100px;
 }
 
-#equipe .row .doctor{
+#equipe .doctor{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -416,14 +427,14 @@ body{
   gap: 1.5vw;
 }
 
-#equipe .row .doctor .card{
+#equipe .doctor .card{
   width: 13vw;
   display: flex;
   flex-direction: column;
   gap: 3vh;
 }
 
-#equipe .row .doctor .card h2{
+#equipe .doctor .card h2{
   font-family: 'Poppins';
   font-weight: 800;
   font-size: 1.3rem;
@@ -433,7 +444,7 @@ body{
   margin: 3vh auto 0vh;
 }
 
-#equipe .row .doctor .card p{
+#equipe .doctor .card p{
   text-align: center;
   font-family: 'Poppins';
   font-size: 0.9rem;
