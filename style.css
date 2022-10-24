@@ -107,18 +107,18 @@ body{
 }
 
 #sobre{
-  margin: 0;
-  height: 85vh;
+  height: 40rem;
   display: flex;
   flex-direction: row;
-
+  align-items: center;
+  
   background-color: #fdfdff;
 }
 
 /*CAROUSEL */
 
 .slider{
-  margin: 0;
+  margin-bottom: 15vh;
   margin-left: 5rem;
   width: 43.9vw;
   height: 64vh;
@@ -259,7 +259,7 @@ body{
 .sntxt{
   display: inline-block;
   width: 38vw;
-  margin: 0 auto;
+  margin: 0vh auto 15vh;
 }
 
 .sntxt h1{
@@ -370,7 +370,14 @@ body{
 }
 
 #equipe{
-  height: 500rem;
+  height: 155rem;
+  background-color: rgb(255, 255, 255);
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15vh;
 }
 
 #equipe h1{
@@ -389,22 +396,11 @@ body{
   font-size: 1.8rem;
 }
 
-#equipe{
-  height: 250vh;
-  background-color: rgb(255, 255, 255);
-  
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 13vh;
-}
-
 #equipe .row{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3vw;
+  gap: 3.2vw;
 }
 
 #equipe img{
@@ -442,4 +438,16 @@ body{
   font-family: 'Poppins';
   font-size: 0.9rem;
   color: rgb(77, 76, 76);
+}
+
+#blog {
+
+}
+
+#blog h2{
+
+}
+
+#blog h2 b{
+
 }
