@@ -434,7 +434,7 @@ body{
 }
 
 #equipe .row .doctor .card p{
-  text-align: left;
+  text-align: center;
   font-family: 'Poppins';
   font-size: 0.9rem;
   color: rgb(77, 76, 76);
