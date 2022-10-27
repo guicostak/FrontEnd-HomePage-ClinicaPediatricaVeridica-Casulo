@@ -288,7 +288,7 @@ body{
 }
 
 #especialidades{
-  height: 115rem;
+  height: 111rem;
   background-image: url(images/brand/dobra3.png);
   
 
@@ -370,7 +370,7 @@ body{
 }
 
 #equipe{
-  height: 165rem;
+  height: 181.25rem;
   background-color: rgb(255, 255, 255);
   
 
@@ -386,7 +386,7 @@ body{
   font-family: 'Montserrat';
   font-weight: 500;
 
-  margin: 10vh auto 3vh;
+  margin: 10vh auto 0vh;
 }
 
 #equipe h1 b{
@@ -404,7 +404,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3.2vw;
+  margin-right: 60vw;
 }
 
 #equipe .row{
@@ -414,7 +414,7 @@ body{
   gap: 3.2vw;
 }
 
-#equipe img{
+#equipe .doctor img{
   width: 12vw;
   border-radius: 100px;
 }
@@ -452,7 +452,7 @@ body{
 }
 
 #blog {
-
+  height: 50rem;
 }
 
 #blog h2{
