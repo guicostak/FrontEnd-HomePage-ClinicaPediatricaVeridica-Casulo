@@ -288,7 +288,7 @@ body{
 }
 
 #especialidades{
-  height: 111rem;
+  height: 114rem;
   background-image: url(images/brand/dobra3.png);
   
 
@@ -370,7 +370,7 @@ body{
 }
 
 #equipe{
-  height: 138rem;
+  height: 142rem;
   background-color: rgb(255, 255, 255);
   
 
@@ -452,7 +452,11 @@ body{
 }
 
 #blog {
-  height: 50rem;
+  height: 100rem;
+  background-color:rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }
 
 #blog h1{
@@ -461,7 +465,7 @@ body{
   font-family: 'Montserrat';
   font-weight: 500;
 
-  margin: 10vh auto 0vh;
+  margin: 10vh auto 10vh;
 }
 
 #blog h1 b{
@@ -469,4 +473,65 @@ body{
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
+}
+
+#blog .row a img {
+  width: 20vw;
+}
+
+#blog .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left;
+  gap: 5vw;
+}
+
+#blog .row .card{
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog .row .card a{
+  text-decoration: none;
+}
+
+#blog .row .card a h2:hover {
+  color: rgb(155, 189, 147);
+}
+
+#blog .row .card a h2{
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(77, 76, 76);
+
+  margin: 3vh auto 3vh;
+}
+
+#blog .card p { 
+  text-align: justify;
+  font-family: 'Poppins';
+  font-size: 0.9rem;
+  color: rgb(77, 76, 76);
+  margin-bottom: 3vh;
+}
+
+#blog .card .button{
+  background-color: rgb(155, 189, 147);
+  font-family: 'Poppins';
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  height: 5vh;
+  width: 10vw;
+  cursor: pointer;
+  border: none;
+}
+
+#blog .card .button:hover{
+  background-color: rgb(115, 146, 108);
+  transform: scale(1.04);
 }
