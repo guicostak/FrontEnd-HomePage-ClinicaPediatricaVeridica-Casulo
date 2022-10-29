@@ -18,7 +18,7 @@
 }
 
 body{
-  background-color: #fdfdff;
+  background-color: #ffffff;
 }
 
 #barraSuperior{
@@ -288,7 +288,7 @@ body{
 }
 
 #especialidades{
-  height: 114rem;
+  height: 112rem;
   background-image: url(images/brand/dobra3.png);
   
 
@@ -359,7 +359,7 @@ body{
 }
 
 .especialidade p{
-  text-align: center;
+  text-align: left;
   font-family: 'Montserrat';
   font-size: 1rem;
   color: rgb(77, 76, 76);
@@ -370,7 +370,7 @@ body{
 }
 
 #equipe{
-  height: 150rem;
+  height: 142rem;
   background-color: rgb(255, 255, 255);
   
 
