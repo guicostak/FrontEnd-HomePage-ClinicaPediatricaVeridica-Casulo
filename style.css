@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
 
 *{
   margin: 0;
@@ -55,8 +56,8 @@ body{
 .info p{
   font-size: 0.8rem;
 
-  font-family: 'Poppins';
-  color: var(--light-text2);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
 
   margin-bottom: 2vh;
   text-align: left;
@@ -66,7 +67,7 @@ body{
   font-size: 1.1rem;
   font-weight: 600;
 
-  font-family:'Poppins';
+  font-family: 'Poppins', sans-serif;
   color: var(--text-color);
 }
 
@@ -93,7 +94,7 @@ body{
 #navbar a{
   text-decoration: none;
   color: white;
-  font-family: 'Poppins'
+  font-family: 'Poppins', sans-serif;
 }
 
 #navbar a:hover{
@@ -108,7 +109,7 @@ body{
 }
 
 #sobre{
-  height: 40rem;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -121,7 +122,7 @@ body{
 
 .slider{
   margin-bottom: 15vh;
-  margin-left: 5rem;
+  margin-left: 8vw;
   width: 43.9vw;
   height: 64vh;
   overflow: hidden;
@@ -221,7 +222,7 @@ body{
 } 
 
 .navigation-auto div:not(:last-child){
-  margin-right: 40px;
+  margin-right: 2.93vw;
 
 }
 
@@ -273,15 +274,16 @@ body{
 }
 
 .sntxt h1 b{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 2rem;
 }
 
 .sntxt p{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 0.95rem;
+  font-weight: 500;
   color:#666363;
 }
 
@@ -290,7 +292,7 @@ body{
 }
 
 #especialidades{
-  height: 112rem;
+  height: auto;
   background-image: url(images/brand/dobra3.png);
   
 
@@ -310,7 +312,7 @@ body{
 }
 
 #especialidades h1 b{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
@@ -328,6 +330,10 @@ body{
   flex-direction: row;
   justify-content: center;
   gap: 3vw;
+}
+
+.last-row {
+  margin-bottom: 10vh;
 }
 
 .last-row:last-child{
@@ -351,7 +357,7 @@ body{
 }
 
 .especialidade h2{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 1.2rem;
   text-align: center;
@@ -364,7 +370,7 @@ body{
   text-align: left;
   font-family: 'Montserrat';
   font-size: 1rem;
-  color: rgb(77, 76, 76);
+  color: rgb(0, 0, 0);
 }
 
 .especialidade img{
@@ -372,7 +378,7 @@ body{
 }
 
 #equipe{
-  height: 142rem;
+  height: auto;
   background-color: rgb(255, 255, 255);
   
 
@@ -392,7 +398,7 @@ body{
 }
 
 #equipe h1 b{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
@@ -437,7 +443,7 @@ body{
 }
 
 #equipe .doctor .card h2{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 1.3rem;
   text-align: center;
@@ -448,13 +454,13 @@ body{
 
 #equipe .doctor .card p{
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   color: rgb(77, 76, 76);
 }
 
 #blog {
-  height: 90rem;
+  height: auto;
   background-color:rgb(240, 240, 240);
   display: flex;
   flex-direction: column;
@@ -471,7 +477,7 @@ body{
 }
 
 #blog h1 b{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
@@ -479,6 +485,10 @@ body{
 
 #blog .row a img {
   width: 20vw;
+}
+
+#blog .row:last-child{
+  margin-bottom: 15vh;
 }
 
 #blog .row{
@@ -506,7 +516,7 @@ body{
 }
 
 #blog .row .card a h2{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 1rem;
   text-align: center;
@@ -517,7 +527,7 @@ body{
 
 #blog .card p { 
   text-align: left;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   color: rgb(77, 76, 76);
   margin-bottom: 3vh;
@@ -525,7 +535,7 @@ body{
 
 #blog .card .button{
   background-color: rgb(155, 189, 147);
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: rgb(255, 255, 255);
   height: 5vh;
@@ -544,6 +554,9 @@ body{
 #depoimentos{
   height: 60rem;
   background-color: #fdfdff;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }
 
 #depoimentos h1{
@@ -556,8 +569,16 @@ body{
 }
 
 #depoimentos h1 b{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
+}
+
+#depoimentos .row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
 }
