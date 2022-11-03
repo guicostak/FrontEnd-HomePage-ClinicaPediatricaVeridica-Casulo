@@ -301,7 +301,7 @@ body{
 
 #especialidades{
   height: auto;
-  background-image: url(images/brand/dobra3.png);
+  background-image: url(images/brand/dobra3.jpg);
   
 
   display: flex;
@@ -341,7 +341,7 @@ body{
 }
 
 .last-row {
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
 }
 
 .last-row:last-child{
