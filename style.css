@@ -561,7 +561,7 @@ body{
 
 #depoimentos{
   height: 60rem;
-  background-color: #fdfdff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 10vh;
@@ -588,5 +588,13 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10vw;
+  gap: 2vw;
+}
+
+#depoimentos .row img{
+  width: 31vw;
+}
+
+#depoimentos .row img:first-child {
+  margin-left: 1vw;
 }
