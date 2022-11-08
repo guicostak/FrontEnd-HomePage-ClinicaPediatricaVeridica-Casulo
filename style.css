@@ -564,7 +564,7 @@ body{
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 13vh;
 }
 
 #depoimentos h1{
@@ -592,7 +592,11 @@ body{
 }
 
 #depoimentos .row img{
-  width: 31vw;
+  width: 29vw;
+}
+
+.mid-img{
+  border-inline: 1px solid black;
 }
 
 #depoimentos .row img:first-child {
