@@ -11,7 +11,7 @@
 
 :root{
   --main-color: #45ac5d;
-  --text-color: #474b48;
+  --text-color: #6a6e6a;
   --light-text: #ffffff;
   --light-text2: #666363;
   --main-background:  #effffe;
@@ -74,10 +74,10 @@ body{
 }
 
 .info b{
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 600;
 
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--text-color);
 }
 
@@ -506,7 +506,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: left;
-  gap: 5vw;
+  gap: 7vw;
 }
 
 #blog .row .card{
