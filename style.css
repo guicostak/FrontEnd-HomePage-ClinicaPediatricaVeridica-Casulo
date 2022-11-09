@@ -375,7 +375,7 @@ body{
 }
 
 .especialidade p{
-  text-align: left;
+  text-align: center;
   font-family: 'Montserrat';
   font-size: 1rem;
   color: rgb(0, 0, 0);
@@ -560,7 +560,7 @@ body{
 }
 
 #depoimentos{
-  height: 60rem;
+  height: auto;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -601,4 +601,26 @@ body{
 
 #depoimentos .row img:first-child {
   margin-left: 1vw;
+}
+
+
+#social h1{
+  font-size: 1.3rem;  
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+
+  margin: 10vh auto 0vh;
+}
+
+#social h1 b{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--main-color);
+  font-size: 1.8rem;
+}
+
+#social{
+  height: auto;
+  background-color:rgb(240, 240, 240);
 }
