@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500;700;800&display=swap');
+
 
 *{
   margin: 0;
@@ -72,10 +74,10 @@ body{
 }
 
 .info b{
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--text-color);
 }
 
