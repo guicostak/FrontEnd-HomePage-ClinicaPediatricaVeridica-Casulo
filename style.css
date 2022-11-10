@@ -555,7 +555,7 @@ body{
 }
 
 #blog .card .button:hover{
-  background-color: rgb(115, 146, 108);
+  background-color: rgb(130, 170, 121);
   transform: scale(1.04);
   transition: 1s;
   box-shadow: 5px 5px rgb(168, 167, 167);
@@ -567,6 +567,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 13vh;
+  padding-bottom: 14vh;
 }
 
 #depoimentos h1{
@@ -605,24 +606,23 @@ body{
   margin-left: 1vw;
 }
 
+#social{
+  height: auto;
+  background-color:rgb(240, 240, 240);
+  padding-block: 10vh;
+}
 
-#social h1{
+#social h2{
   font-size: 1.3rem;  
   text-align: center;
   font-family: 'Montserrat';
   font-weight: 500;
-
-  margin: 10vh auto 0vh;
 }
 
-#social h1 b{
+#social h2 b{
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
-}
-
-#social{
-  height: auto;
-  background-color:rgb(240, 240, 240);
+  text-align: center;
 }
