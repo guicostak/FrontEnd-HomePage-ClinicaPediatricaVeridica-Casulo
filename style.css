@@ -28,8 +28,8 @@
 
 
 
-body{
-  background-color: #fdfdff;
+ html {
+  animation: fadeIn 2s alternate;
 }
 
 #barraSuperior{
@@ -118,7 +118,6 @@ body{
 
 #dobra1{
   width: 100%;
-  animation: fadeIn 2s alternate;
 }
 
 #sobre{
@@ -642,10 +641,10 @@ body{
 }
 
 #social h2 a{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 800;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
