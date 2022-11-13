@@ -32,6 +32,10 @@
   animation: fadeIn 2s alternate;
 }
 
+body { 
+  background-color: #fdfdff;
+}
+
 #barraSuperior{
   display: flex;
   flex-direction: row;
@@ -572,6 +576,7 @@
   flex-direction: column;
   gap: 13vh;
   padding-bottom: 14vh;
+  display: none;
 }
 
 #depoimentos h1{
