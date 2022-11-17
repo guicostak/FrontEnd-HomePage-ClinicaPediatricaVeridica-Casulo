@@ -58,6 +58,14 @@ body {
   margin-right: 3vw;
 }
 
+.logo2{
+  display: none;
+}
+
+#logo2{
+  display: none;
+}
+
 .info{
   display: flex;
   flex-direction: column;
@@ -692,4 +700,124 @@ body {
 #social p{
   font-size: 0.9vw;
   color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #navbar{
+    display: none;
+  }
+  
+  #barraSuperior{
+    display: none;
+  }
+
+  #logo2{
+    display: flex;
+    width: 40vw;
+  }
+  .logo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-background);
+  }
+
+  #sobre{
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+  }
+  .slider{
+    margin-bottom: 0vh;
+    margin-left: 0vw;
+    width: 75vw;
+    height: 36vh;
+  }
+  .slide img{
+    width: 75vw;
+  }
+
+  .navigation-auto{
+    position: absolute;
+    width: 75vw;
+    margin-top: 26vh;
+  } 
+
+  .navigation-auto div:not(:last-child){
+    margin-right: 6vw;
+  }
+
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: rgb(0, 0, 0);
+  } 
+ 
+  #radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: rgb(0, 0, 0);
+  }
+  #radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #radio8:checked ~ .navigation-auto .auto-btn8{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .manual-navigation{
+    position: absolute;
+    width: 75vw;
+    margin-top: -38vh;
+  }
+  
+  .manual-btn{
+    border: 2px solid rgb(114, 112, 112);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .manual-btn:not(:last-child) {
+    margin-right: 6vw;
+  }
+
+  .sntxt{
+    display: inline-block;
+    width: 80vw;
+    margin: 0vh auto 6vh;
+  }
+  
+  .sntxt h1{
+    font-size: 1.3rem;  
+  }
+  
+  .sntxt h1 b{
+    font-size: 1.5rem;
+  }
+  
+  .sntxt p{
+    font-size: 0.9rem;
+  }
+  
+  .sntxt p b{
+    font-size: 0.9rem;
+  }
+
 }
