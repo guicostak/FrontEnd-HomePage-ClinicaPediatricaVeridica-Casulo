@@ -729,13 +729,13 @@ body {
     flex-direction: column;
     text-align: left;
     padding-top: 4vh;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
   }
   .slider{
     margin-bottom: 0vh;
     margin-left: 0vw;
     width: 75vw;
-    height: 36vh;
+    height: 35vh;
   }
   .slide img{
     width: 75vw;
@@ -818,6 +818,88 @@ body {
   
   .sntxt p b{
     font-size: 0.9rem;
+  }
+
+  #especialidades{
+    height: auto;
+    background-color: rgb(207, 207, 207);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+  }
+  
+  #especialidades h1{
+    font-size: 1.3rem;  
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  
+    margin: 11vh auto 4vh;
+  }
+  
+  #especialidades h1 b{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: var(--main-color);
+    font-size: 1.4rem;
+  }
+  
+  #especialidades .brand{
+    width: 20vw;
+  
+    position: absolute;
+    margin-top: 2vh;
+  }
+  
+  #especialidades .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+  }
+  
+  .last-row {
+    margin-bottom: 10vh;
+  }
+  
+  .last-row:last-child{
+    display: flex;
+    width: 19vw;
+  }
+  
+  
+  #especialidades .row:first-child{
+    margin-left: 2vw;
+  }
+  
+  .especialidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .especialidade h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(77, 76, 76);
+  
+    margin: 3vh auto 1vh;
+  }
+  
+  .especialidade p{
+    text-align:  center;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  .especialidade img{
+    width: 30vw;
   }
 
 }
