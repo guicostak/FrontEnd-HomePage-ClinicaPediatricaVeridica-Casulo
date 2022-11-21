@@ -132,6 +132,10 @@ body {
   width: 100%;
 }
 
+#dobra2 {
+  display: none;
+}
+
 #sobre{
   height: 100vh;
   display: flex;
@@ -582,9 +586,8 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  gap: 13vh;
+  gap: 8vh;
   padding-bottom: 14vh;
-  display: none;
 }
 
 #depoimentos h1{
@@ -608,15 +611,11 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2vw;
+  gap: 0vw;
 }
 
 #depoimentos .row img{
-  width: 29vw;
-}
-
-.mid-img{
-  border-inline: 1px solid black;
+  width: 25vw;
 }
 
 #depoimentos .row img:first-child {
@@ -704,6 +703,11 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+
+  body{
+    background-color: #effffe;
+  }
+  
   #navbar{
     display: none;
   }
@@ -714,21 +718,38 @@ body {
 
   #logo2{
     display: flex;
-    width: 40vw;
+    width: 50vw;
   }
   .logo2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0vh;
     background-color: var(--main-background);
+  }
+
+  #dobra1 {
+    display: none;
+    background-color: #effffe;
+  }
+
+  #dobra2{
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .dobra2{
+    height: auto;
+    background-color: #effffe;
+    margin-bottom: 4vh;
   }
 
   #sobre{
     height: auto;
     flex-direction: column;
     text-align: left;
-    padding-top: 4vh;
     padding-bottom: 1vh;
   }
   .slider{
@@ -805,59 +826,50 @@ body {
   }
   
   .sntxt h1{
-    font-size: 1.3rem;  
+    font-size: 5.5vw;  
+    text-align: center;
   }
   
   .sntxt h1 b{
-    font-size: 1.5rem;
+    font-size: 7vw;
   }
   
   .sntxt p{
-    font-size: 0.9rem;
+    font-size: 4.3vw;
   }
   
   .sntxt p b{
-    font-size: 0.9rem;
+    font-size: 4.3vw;
   }
 
   #especialidades{
     height: auto;
+    background-image: none;
     background-color: rgb(207, 207, 207);
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
     gap: 10vh;
   }
-  
+
   #especialidades h1{
-    font-size: 1.3rem;  
-    text-align: center;
-    font-family: 'Montserrat';
-    font-weight: 500;
+    font-size: 5w;  
   
-    margin: 11vh auto 4vh;
+    margin: 11vh auto -4vh;
   }
   
   #especialidades h1 b{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    color: var(--main-color);
-    font-size: 1.4rem;
+    font-size: 6vw;
   }
   
   #especialidades .brand{
     width: 20vw;
-  
-    position: absolute;
+
     margin-top: 2vh;
   }
   
   #especialidades .row{
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10vh;
+    gap: 7vh;
   }
   
   .last-row {
@@ -865,8 +877,7 @@ body {
   }
   
   .last-row:last-child{
-    display: flex;
-    width: 19vw;
+    margin-right: 0vw;
   }
   
   
@@ -875,31 +886,226 @@ body {
   }
   
   .especialidade{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
+    width: 82vw;
   }
   
   .especialidade h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
     font-size: 1.4rem;
     text-align: center;
-    color: rgb(77, 76, 76);
-  
-    margin: 3vh auto 1vh;
   }
   
   .especialidade p{
     text-align:  center;
-    font-family: 'Montserrat';
-    font-size: 1.2rem;
-    color: rgb(0, 0, 0);
+    font-size: 5vw;
   }
   
   .especialidade img{
     width: 30vw;
   }
 
+  #equipe{
+    gap: 7vh;
+  }
+  
+  #equipe h1{
+    font-size: 5vw;  
+
+    margin: 5vh auto 0vh;
+  }
+  
+  #equipe h1 b{
+    font-size: 7vw;
+  }
+  
+  #equipe .last-row:last-child{
+    margin-right: 0vw;
+  }
+  
+  #equipe .row{
+    flex-direction: column;
+    gap: 7vh;
+  }
+  
+  #equipe .doctor img{
+    width: 35vw;
+  }
+  
+  #equipe .doctor{
+    gap: 3.5vw;
+  }
+  
+  #equipe .doctor .card{
+    width: 40vw;
+    gap: 2vh;
+  }
+
+  #equipe .doctor .card h2{
+    font-size: 5vw;
+  }
+  
+  #equipe .doctor .card p{
+    font-size: 4vw;
+  }
+  #blog {
+    height: auto;
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    gap: 12vh;
+  }
+  
+  #blog h1{
+    font-size: 5vw;  
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  
+    margin: 4vh auto -6vh;
+  }
+  
+  #blog h1 b{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: var(--main-color);
+    font-size: 7vw;
+  }
+  
+  #blog .row a img {
+    width: 60vw;
+  }
+  
+  #blog .row:last-child{
+    margin-bottom: 10vh;
+  }
+  
+  #blog .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12vh;
+  }
+  
+  #blog .row .card{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #blog .row .card a{
+    text-decoration: none;
+  }
+  
+  #blog .row .card a h2:hover {
+    color: rgb(155, 189, 147);
+    transition: 0.6s;
+  }
+  
+  #blog .row .card a h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    text-align: center;
+  
+    margin: 3vh auto 3vh;
+  }
+  
+  #blog .card p { 
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw;
+    margin-bottom: 3vh;
+  }
+  
+  #blog .card .button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 800;
+    height: 7vh;
+    width: 35vw;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+  }
+  #social{
+    height: auto;
+    padding-top: 7vh;
+    padding-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+  }
+  
+  #social .row {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  
+  #social h2{
+    font-size: 4vw;  
+  }
+  
+  #social h2 img{
+    width: 0.9rem;
+  }
+  
+  #social h2 a{
+    font-size: 1.4rem;
+  }
+  
+  #social .column button{
+    font-size: 5vw;
+    padding: 5px 10px;
+  }
+  
+  #social button img {
+    width: 4vw;
+    margin-left: 0.5vw;
+  }
+  
+  #social .column {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh; 
+  }
+  
+  #social .column h2 {
+    font-size: 3vw;
+    text-align: center
+  }
+  
+  #social p{
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  #depoimentos{
+    gap: 3vh;
+    padding-bottom: 5vh;
+  }
+  
+  #depoimentos h1{
+    font-size: 5vw;  
+  
+    margin: 3vh auto 0vh;
+  }
+  
+  #depoimentos h1 b{
+    font-size: 6vw;
+  }
+  
+  #depoimentos .row{
+    flex-direction: column;
+    gap: 3vh;
+  }
+  
+  #depoimentos .row img{
+    width: 75vw;
+  }
+  
+  #depoimentos .row img:first-child {
+    margin-left: 0vw;
+  }
 }
