@@ -10,8 +10,9 @@
 
   <header>
     <div class="logo2">
-    <img id="logo2" src="images/brand/logo2.png" alt="Clínica Pediátrica Casulo">
+      <img id="logo2" src="images/brand/logo2.png" alt="Clínica Pediátrica Casulo">
     </div>
+ 
     <div id="barraSuperior">
       <a href="#" class="navbar-brand">
         <img id="logo" src="images/brand/logo.png" alt="Clínica Pediátrica Casulo">
@@ -29,6 +30,7 @@
         (38) 99879-4824</p>
       </div>
     </div>
+    
     <nav id="navbar">
       <a href="#barraSuperior">HOME</a>
       <a href="#sobre">SOBRE</a> 
@@ -38,13 +40,25 @@
       <a href="#depoimentos">DEPOIMENTOS</a> 
       <a href="#social">CONTATO</a> 
     </nav>
+
+    <button id="open-menu"  onclick="Menu()" ><img src="images/vetores/menu.png"></button>
+    <div class="menu-mobile">
+      <button id="close-menu" onclick="fecharMenu()"><img src="images/vetores/x.png"></button>
+      <nav>
+        <a href="#barraSuperior">HOME</a>
+        <a href="#sobre">SOBRE</a> 
+        <a href="#especialidades">ESPECIALIDADES</a>  
+        <a href="#equipe">NOSSA EQUIPE</a> 
+        <a href="#blog">BLOG</a> 
+        <a href="#depoimentos">DEPOIMENTOS</a> 
+        <a href="#social">CONTATO</a> 
+      </nav>
+    </div>
   </header>
+
   <body>
     <img src="images/brand/dobra1.jpg" id="dobra1">
     <div id="sobre">
-      <div class="dobra2">
-        <img src="images/brand/dobra1.png" id="dobra2">
-      </div>
       <div class="slider">
         <div class="slides">
           <input type="radio" name="radio-btn" id="radio1">
@@ -281,7 +295,7 @@
           </div>
         </div>
         <div class="doctor">
-          <img src="images/equipe/osteopata.jpg">
+          <img src="images/equipe/fonoaudiologo2.jpg">
           <div class="card">
             <h2>KAROLINE OLIVEIRA</h2>
             <p>Fonoaudióloga</p>
