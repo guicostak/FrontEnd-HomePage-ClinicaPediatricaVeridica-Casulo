@@ -41,6 +41,10 @@
   to {height: 0vh}
 }
 
+@keyframes showUp{
+  from{width: 0vw}
+  to {width: 5vw}
+}
 
  html {
   animation: fadeIn 2s alternate;
@@ -372,7 +376,7 @@ body {
 }
 
 #especialidades .brand{
-  width: 6vw;
+  width: 12vw;
 
   position: absolute;
   margin-top: 2vh;
@@ -724,6 +728,27 @@ body {
 #social p{
   font-size: 0.9vw;
   color: white;
+}
+
+#wpp-btn{
+  display: flex;
+  position: fixed;
+  bottom: 2vh;
+  left: 1vw;
+  width: 5vw;
+  transition: 1s;
+  animation: showUp 2s alternate;
+}
+
+#wpp-btn img{
+  width: 5vw;
+  animation: showUp 2s alternate;
+  transition: 1s;
+}
+
+#wpp-btn img:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 @media only screen and (max-width: 950px){
