@@ -8,8 +8,6 @@
   padding: 0;
 }
 
-
-
 :root{
   --main-color: #45ac5d;
   --text-color: #6a6e6a;
@@ -45,6 +43,16 @@
   from{width: 0vw}
   to {width: 5vw}
 }
+
+@keyframes showUp2{
+  from{width: 0vw}
+  to {width: 10vw}
+}
+
+@keyframes showUp3{
+  from{width: 0vw}
+  to {width: 16vw}
+} 
 
  html {
   animation: fadeIn 2s alternate;
@@ -97,8 +105,6 @@ body {
   display: none;
 }
 
-
-
 .info{
   display: flex;
   flex-direction: column;
@@ -116,6 +122,7 @@ body {
 
   margin-bottom: 2vh;
   text-align: left;
+  text-decoration: none;
 }
 
 .info b{
@@ -437,7 +444,7 @@ body {
 #equipe{
   height: auto;
   background-color: rgb(255, 255, 255);
-  
+  padding-bottom: 15vh;
 
   display: flex;
   flex-direction: column;
@@ -459,17 +466,6 @@ body {
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.8rem;
-}
-
-#equipe .last-row:last-child{
-  margin-right: 59vw;
-}
-
-#equipe .last-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-right: 60vw;
 }
 
 #equipe .row{
@@ -734,7 +730,7 @@ body {
   display: flex;
   position: fixed;
   bottom: 2vh;
-  left: 1vw;
+  right: 1vw;
   width: 5vw;
   transition: 1s;
   animation: showUp 2s alternate;
@@ -753,79 +749,78 @@ body {
 
 @media only screen and (max-width: 950px){
   
-  #barraSuperior{
-    height: auto;
-    padding-block: 2vh;
-    gap: 0vw;
-  }
+#barraSuperior{
+  height: auto;
+  padding-block: 2vh;
+  gap: 0vw;
+}
   
-  #barraSuperior p img{
-    width: 2vw;
+#barraSuperior p img{
+  width: 2vw;
   
-    margin-inline: 0.5rem;
-  }
+  margin-inline: 0.5rem;
+}
 
-  #nav{
-    display: none;
-  }
+#nav{
+  display: none;
+}
 
-  #logo{
-    display: none;
-  }
+#logo{
+  display: none;
+}
 
-  .logo2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--main-background);
-  }
+.logo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-background);
+}
 
-  #logo2{
-    display: flex;
-    width: 50vw;
-  }
+#logo2{
+  display: flex;
+  width: 50vw;
+}
   
-  #navb{
-    display: none;
-  }
+#navb{
+  display: none;
+}
   
 #btn-mobile{
   display: none;
 }
 
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 3vw;
+  
+  height: 10vh;
+}
 
+.info p{
+  font-size: 1.7vw;
+  
+  font-family: 'Poppins', sans-serif;
+  
+  margin-bottom: 2vh;
+  text-align: center;
+}
+  
+.info b{
+  font-size: 2.3vw;
+  font-weight: 600;
+  
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+  
+#infob{
+  border-inline: 1px solid black;
+}
 
-  .info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-inline: 3vw;
-  
-    height: 10vh;
-  }
-  .info p{
-    font-size: 1.7vw;
-  
-    font-family: 'Poppins', sans-serif;
-  
-    margin-bottom: 2vh;
-    text-align: center;
-  }
-  
-  .info b{
-    font-size: 2.3vw;
-    font-weight: 600;
-  
-    font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
-  }
-  
-  #infob{
-    border-inline: 1px solid black;
-  }
-
-  #navbar {
+#navbar {
   display: none;
 
 }
@@ -998,7 +993,6 @@ body {
 #especialidades{
   height: auto;
   background: rgb(194, 192, 192);
-  
 
   display: flex;
   flex-direction: column;
@@ -1032,6 +1026,7 @@ body {
 #especialidades .row{
   flex-direction: column;
   justify-content: center;
+ 
   gap: 7vh;
 }
 
@@ -1042,7 +1037,6 @@ body {
 .last-row:last-child{
   margin-right: 0vw;
 }
-
 
 #especialidades .row:first-child{
   margin-left: 2vw;
@@ -1078,10 +1072,6 @@ body {
 
 #equipe h1 b{
   font-size: 4.5vw;
-}
-
-#equipe .last-row:last-child{
-  margin-right: 0vw;
 }
 
 #equipe .row{
@@ -1231,7 +1221,23 @@ body {
   text-align: center
 }
 
+#wpp-btn{
+  
+  width: 10vw;
+  transition: 1s;
+  animation: showUp2 2s alternate;
+}
 
+#wpp-btn img{
+  width: 10vw;
+  animation: showUp2 2s alternate;
+  transition: 1s;
+}
+
+#wpp-btn img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 }
 
@@ -1465,7 +1471,7 @@ body {
   
   .manual-btn{
     border: 2px solid rgb(114, 112, 112);
-    padding: 5px;
+    padding: 7px;
     border-radius: 10px;
   }
   
@@ -1568,10 +1574,6 @@ body {
   
   #equipe h1 b{
     font-size: 7vw;
-  }
-  
-  #equipe .last-row:last-child{
-    margin-right: 0vw;
   }
   
   #equipe .row{
@@ -1760,6 +1762,24 @@ body {
     text-align: center;
     font-size: 2.5vw;
     margin-inline: 5vw;
+  }
+
+  #wpp-btn{
+    right: 2vw;
+    width: 16vw;
+    transition: 1s;
+    animation: showUp3 2s alternate;
+  }
+  
+  #wpp-btn img{
+    width: 16vw;
+    animation: showUp3 2s alternate;
+    transition: 1s;
+  }
+  
+  #wpp-btn img:hover{
+    transform: scale(1.1);
+    transition: 1s;
   }
 
 }
