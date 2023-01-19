@@ -736,6 +736,41 @@ body {
   animation: showUp 2s alternate;
 }
 
+#cursos{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+  justify-content: center;
+  padding-block: 10vh;
+  background-color: rgb(240, 240, 240);
+}
+
+#cursos .row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+#cursos h1{
+  font-size: 1.4rem;  
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+
+  margin: 0vh auto 5vh;}
+
+
+#cursos h1 b{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--main-color);
+  font-size: 1.8rem;
+}
+
 #wpp-btn img{
   width: 5vw;
   animation: showUp 2s alternate;
@@ -866,7 +901,8 @@ body {
   top: 50vh;
   left: 0;
   width: 100%;
-  height: 700px; 
+  height: auto; 
+  padding-block: 5vh;
   z-index: 1;
   transition: 1s;
 }
