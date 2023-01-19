@@ -752,6 +752,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 3vh;
   gap: 3vw;
 }
 
@@ -1255,6 +1256,41 @@ body {
 #social .column h2 {
   font-size: 2vw;
   text-align: center
+}
+
+#cursos{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+  justify-content: center;
+  padding-block: 7vh;
+  background-color: rgb(240, 240, 240);
+}
+
+#cursos .row{
+  flex-direction: column;
+  padding-bottom: 0vh;
+  gap: 5vh;
+}
+
+#cursos iframe{
+  width: 70vw;
+  height: 30vh;
+}
+
+#cursos h1{
+  font-size: 3vw; 
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+
+  margin: 0vh auto 1vh;}
+
+
+#cursos h1 b{
+  font-size: 4.5vw;
 }
 
 #wpp-btn{
@@ -1799,6 +1835,37 @@ body {
     font-size: 2.5vw;
     margin-inline: 5vw;
   }
+
+  #cursos{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    padding-block: 7vh;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  #cursos .row{
+    flex-direction: column;
+    padding-bottom: 0vh;
+    gap: 5vh;
+  }
+  
+  #cursos iframe{
+    width: 70vw;
+    height: 20vh;
+  }
+  
+  #cursos h1{
+    font-size: 1.4rem;  
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  
+    margin: 0vh auto 1vh;}
+  
 
   #wpp-btn{
     right: 2vw;
